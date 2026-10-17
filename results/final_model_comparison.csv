@@ -1,0 +1,4 @@
+Model,Test Accuracy (%),Macro Precision (%),Macro Recall (%),Macro F1 (%)
+CNN Baseline,90.03,88.84,87.62,87.83
+ResNet-18 with Augmentation,96.67,96.05,96.03,95.84
+ResNet-18 without Augmentation,95.98,95.41,94.29,94.58
