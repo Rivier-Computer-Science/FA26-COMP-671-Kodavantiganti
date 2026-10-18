@@ -18,7 +18,7 @@ Images are resized to 224 × 224 pixels and normalized using ImageNet mean and s
 
 Models and Experiments : 
 
-Three setups were tested: CNN baseline: A custom CNN consisting of four convolutional blocks, dropout and final classification layer. ResNet-18 (augmentation): Fine-tuned ResNet-18 using augmentation during training on the 38 plant disease classes from ImageNet. ResNet-18 with augmentation: The same pretrained architecture and training configuration, but with random augmentation during training. The experiments are performed with cross-entropy loss, Adam optimizer, learning rate 0.001 and three training epochs. The batch size is 8. 
+Three setups were tested: CNN baseline: A custom CNN consisting of four convolutional blocks, dropout and final classification layer. ResNet-18 (augmentation): Fine-tuned ResNet-18 using augmentation during training on the 38 plant disease classes from ImageNet. ResNet-18 witout augmentation: The same pretrained architecture and training configuration, but with random augmentation during training. The experiments are performed with cross-entropy loss, Adam optimizer, learning rate 0.001 and three training epochs. The batch size is 8. 
 
 Evaluation Metrics 
 
