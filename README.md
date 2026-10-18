@@ -4,25 +4,15 @@ Plant Disease Detection based on CNN and ResNet-18.
 
 In this project, deep learning techniques are explored for the classification of plant diseases based on leaf images. The baseline model is a custom Convolutional Neural Network (CNN) and a pretrained ResNet-18 model is used to evaluate the benefits of transfer learning. The project involves a comparison of CNN and ResNet-18 performance and a study of the impact of data augmentation on the classification accuracy of ResNet-18 on the PlantVillage dataset. 
 
- Problem Statement: The goal is to categorize the plant leaf images into the different disease categories present in the data set, and compare the performance of various deep learning methods. The experiments are conducted on overall classification performance, the effect of data augmentation, and the classification of the disease categories that are still hard to classify.  
+ Problem Statement: 
+ The goal is to categorize the plant leaf images into the different disease categories present in the data set, and compare the performance of various deep learning methods. The experiments are conducted on overall classification performance, the effect of data augmentation, and the classification of the disease categories that are still hard to classify.  
 
-Dataset: PlantVillage This is a dataset from Hugging Face — PlantVillage. Number of images: 54,305 Number of classes: 38 The data set is split by the official training set size.The official training split size is used for the data set. This is the official test split of 10,709 images. The official training split was split into training and validation subsets via stratified sampling, with a random seed of 42. 
+Dataset: 
+PlantVillage This is a dataset from Hugging Face — PlantVillage. Number of images: 54,305 Number of classes: 38 The data set is split by the official training set size.The official training split size is used for the data set. This is the official test split of 10,709 images. The official training split was split into training and validation subsets via stratified sampling, with a random seed of 42. 
 
-Subset 
+<img width="411" height="129" alt="image" src="https://github.com/user-attachments/assets/a0a920b6-1f16-4cb3-99af-f3c25adff502" />
 
-Number of images 
 
-Training 
-
-39,236 
-
-Validation 
-
-4,360 
-
-Held-out test 
-
-10,709 
 
 Images are resized to 224 × 224 pixels and normalized using ImageNet mean and standard deviation. Training-time augmentation uses random horizontal flips and rotations of up to 15 degrees. Evaluation data is processed without random augmentation. 
 
