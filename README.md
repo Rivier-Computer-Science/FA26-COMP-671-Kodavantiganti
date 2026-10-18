@@ -31,6 +31,27 @@ The models are evaluated using:
 5)Confusion matrices 
 6)Analysis of misclassified images 
 
+Setup and Execution
+
+1. Clone the repository
+
+git clone https://github.com/Rivier-Computer-Science/FA26-COMP-671-Kodavantiganti.git
+cd FA26-COMP-671-Kodavantiganti
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Run the notebook
+
+Open notebooks/plant_disease_detection.ipynb in Google Colab or Jupyter Notebook and run the cells in order. A GPU is recommended for training.
+
+4. Review the outputs
+
+models/ contains the saved model checkpoints.
+
+results/ contains evaluation metrics, comparison files, confusion matrices, and training plots.
+
 
 
 Results 
@@ -75,4 +96,4 @@ notebooks/plant_disease_detection.ipynb
 
 Conclusion 
 
- The experiments demonstrate that ResNet-18 achieved superior performance over the baseline CNN trained with the custom dataset on the held-out test set of PlantVillage. The augmentation experiment also revealed a relatively small performance boost for the tested ResNet-18 model. The class level evaluation identified areas of weakness that are not evident from the overall
+ The experiments demonstrate that ResNet-18 achieved superior performance over the baseline CNN trained with the custom dataset on the held-out test set of PlantVillage. The augmentation experiment also revealed a relatively small performance boost for the tested ResNet-18 model. 
