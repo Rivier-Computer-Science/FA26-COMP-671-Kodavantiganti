@@ -24,63 +24,20 @@ Evaluation Metrics
 
 The models are evaluated using: 
 
-Accuracy 
+1)Accuracy 
+2)Macro precision 
+3)Macro recall 
+4)Macro F1-score 
+5)Confusion matrices 
+6)Analysis of misclassified images 
 
-Macro precision 
 
-Macro recall 
-
-Macro F1-score 
-
-Confusion matrices 
-
-Analysis of misclassified images 
-
-The held-out test set is used to evaluate the final selected model checkpoints. 
 
 Results 
 
 The following table summarizes the held-out test results. 
 
-Model 
-
-Accuracy 
-
-Macro Precision 
-
-Macro Recall 
-
-Macro F1-score 
-
-CNN baseline 
-
-90.03% 
-
-88.84% 
-
-87.62% 
-
-87.83% 
-
-ResNet-18 with augmentation 
-
-96.67% 
-
-96.05% 
-
-96.03% 
-
-95.84% 
-
-ResNet-18 without augmentation 
-
-95.98% 
-
-95.41% 
-
-94.29% 
-
-94.58% 
+<img width="625" height="147" alt="image" src="https://github.com/user-attachments/assets/fff34cbd-dde0-4b29-bc79-5583e0aa9c01" />
 
  
 
@@ -106,13 +63,7 @@ The project is developed in Python with PyTorch and torchvision, evaluated with 
 
 Project Structure 
 
-. 
-├── notebooks/ 
-│   └── plant_disease_detection.ipynb 
-├── models/ 
-├── results/ 
-├── README.md 
-└── requirements.txt 
+<img width="305" height="291" alt="image" src="https://github.com/user-attachments/assets/7606433d-a3dc-4252-9fc7-eeeff9565987" />
 
  
 
